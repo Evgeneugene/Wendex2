@@ -36,7 +36,7 @@ All the data is stored in 4 tables: drivers, passengers, orders, cars.
  
  A diver can login, update his current status(offline, free/online, busy), update order status(Waiting for the car, waiting for the passenger, driving, arrived, waiting for the payment, ended), see his order history, see his cars, check available orders and pick one. Also he has current coordinates when driving. Multiple cars supported.
   
- A Car has model, carType, the color and the number. If the type is Comfort it has count of freeBottleOfwater (it randomly decreases during rides). If the type is Business it has the method CoolPark. Firstly it should be validated before the usage.
+ A Car has model, carType, the color and the number. If the type is Comfort it has count of freeBottleOfwater (it randomly decreases during rides). If the type is Business it has the method CoolPark. Firstly car should be validated before the usage.
  
  An admin can register, login through his gateway, see all information, block passengers' and drivers' function to make/take order. Inappropriate cases are handled with exceptions. The passenger's activity with use of multiple devices is supported, and he can't make 2 order from 2 devices.
   
