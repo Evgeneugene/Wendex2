@@ -30,7 +30,7 @@ Building:
 
 ### **How it works?**
 
-All the data is stored in 4 tables: drivers, passengers, orders, cars.
+ All the data is stored in 4 tables: drivers, passengers, orders, cars.
  In the main function I register some people as passengers and drivers and further show their functional abilities (You can add any if you want). But once you ran the program and registered the users, you should remove/comment code for registering them, otherwise the LoginIsBusy exception will be thrown, because these users already have an account in the base.
  Passengers can login, see their order history, see and update payment methods(Cash, Tinkoff card, or Sberbank card. By default it is Cash), see and update addresses. Addresses for the whole program are implemented as X coordinates in line for simplicity. Also passenger can select any two addresses and type of car(Economy, Comfort, ComfortPlus, Business), check the price for this ride and order it, check current coordinates of Car during the ride and pay the bill after its ending.
  
